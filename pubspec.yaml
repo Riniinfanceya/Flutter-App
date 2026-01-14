@@ -1,0 +1,16 @@
+name: flutter_firebase_app
+description: A simple Flutter Firebase demo application
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+
+flutter:
+  uses-material-design: true
